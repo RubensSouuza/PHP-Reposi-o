@@ -29,7 +29,7 @@
 
         <div class="wrapper bg-light mt-5 ">
             <h2 class="mb-3 mt-3 text-center">Cadastro de Livros</h2>
-            <form action="../DB/cadastrobook.php">
+            <form action="../DB/cadastrobook.php" method="POST">
                 <div class="form-row">
                     <div class="col form-group">
                         <label for="id_title">Título:</label>

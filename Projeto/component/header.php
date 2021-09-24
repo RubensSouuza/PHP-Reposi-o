@@ -1,5 +1,6 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css" />
 
+
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a href="../pages/home.php">
@@ -12,14 +13,14 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto ml-5 text-center ">
 
-                <li class="nav-item dropdown" >
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Livros
                     </a>
                     <div class="dropdown-menu" style="background-color: #dfe6e9; " aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../pages/formbook.php">Cadastrar</a>
-                        <a class="dropdown-item" href="">Visualizar</a>
-                        <a class="dropdown-item" href="">Editar</a>
+                        <a class="dropdown-item" href="../pages/viewbook.php">Visualizar</a>
+                        
                     </div>
                 </li>
 
@@ -29,8 +30,8 @@
                     </a>
                     <div class="dropdown-menu" style="background-color: #dfe6e9; " aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../pages/formauthor.php">Cadastrar</a>
-                        <a class="dropdown-item" href="#">Visualizar</a>
-                        <a class="dropdown-item" href="#">Editar</a>
+                        <a class="dropdown-item" href="../pages/viewbook.php">Visualizar</a>
+                        
                     </div>
                 </li>
 
@@ -40,8 +41,8 @@
                     </a>
                     <div class="dropdown-menu" style="background-color: #dfe6e9; " aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../pages/formpublisher.php">Cadastrar</a>
-                        <a class="dropdown-item" href="#">Visualizar</a>
-                        <a class="dropdown-item" href="#">Editar</a>
+                        <a class="dropdown-item" href="../pages/viewbook.php">Visualizar</a>
+                        
                     </div>
                 </li>
             </ul>

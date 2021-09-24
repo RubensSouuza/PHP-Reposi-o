@@ -29,7 +29,7 @@
         <div class=" container  justify-content-center ">
             <div class="wrapper bg-light mt-5 ">
                 <h2 class="mb-3 mt-3 text-center">Cadastro de Editoras</h2>
-                <form action="../DB/cadastropublisher.php">
+                <form action="../DB/cadastropublisher.php" method="POST">
                     <div class="form-row">
                         <div class="col form-group">
                             <label for="id_nome">Nome:</label>

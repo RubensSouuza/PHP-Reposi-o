@@ -1,7 +1,8 @@
 <?php
 require_once('conexao.php');
 
-if(isset($_POST['txtName']) && (isset($_POST['txtCPF'])) && (isset($_POST['txtTel'])) && (isset($_POST['txtMail'])){
+if( isset($_POST['txtName']) && isset($_POST['txtCPF']) && isset($_POST['txtTel']) && isset($_POST['txtMail']) ){
+
     $name = $_POST['txtName'];
     $cpf = $_POST['txtCPF'];
     $telefone = $_POST['txtTel'];
@@ -13,6 +14,8 @@ if(isset($_POST['txtName']) && (isset($_POST['txtCPF'])) && (isset($_POST['txtTe
     $control->bindParam("TELEFONE", $telefone);
     $control->bindParam("EMAIL", $email);
     $control->execute();
+
+    header('http://localhost/Projeto/pages/home.php');
 }
-require_once('../pages/home.php');
+
 ?>
