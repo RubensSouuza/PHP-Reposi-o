@@ -30,7 +30,7 @@
                     </a>
                     <div class="dropdown-menu" style="background-color: #dfe6e9; " aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../pages/formauthor.php">Cadastrar</a>
-                        <a class="dropdown-item" href="../pages/viewbook.php">Visualizar</a>
+                        <a class="dropdown-item" href="../pages/viewauthor.php">Visualizar</a>
                         
                     </div>
                 </li>
@@ -41,7 +41,7 @@
                     </a>
                     <div class="dropdown-menu" style="background-color: #dfe6e9; " aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="../pages/formpublisher.php">Cadastrar</a>
-                        <a class="dropdown-item" href="../pages/viewbook.php">Visualizar</a>
+                        <a class="dropdown-item" href="../pages/viewpublisher.php">Visualizar</a>
                         
                     </div>
                 </li>

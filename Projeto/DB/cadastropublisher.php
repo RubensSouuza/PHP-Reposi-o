@@ -15,7 +15,6 @@ if ( isset($_POST['txtName']) && isset($_POST['txtCNPJ']) && isset($_POST['txtTe
     $control->bindParam("TELEFONE", $telefone);
     $control->bindParam("ENDERECO", $endereco);
     $control->execute();
-    header('http://localhost/Projeto/pages/home.php');
+    header('Location: http://localhost/Projeto/pages/home.php');
     
 }
-?>  

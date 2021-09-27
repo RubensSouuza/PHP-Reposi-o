@@ -21,7 +21,7 @@ $control->bindParam("ANO", $ano );
 $control->bindParam("QTDPAGINAS", $Pagina);
 $control->execute();
 
-header('Location:http://localhost/Projeto/pages/');
+header('Location: http://localhost/Projeto/pages/');
 }else{
     echo "Deu error";
 }

@@ -7,7 +7,7 @@ require_once('../DB/conexao.php');
 
 //Lendo dados do banco de dados;
 
-$control = $conecta->prepare("SELECT * FROM tb_livro ORDER BY titulo asc");
+$control = $conecta->prepare("SELECT * FROM tb_autor ORDER BY nome asc");
 $control->execute();
 
 //Pega toda a tabela e guarda em uma variável;
@@ -51,20 +51,20 @@ $resultado = $control->fetchALL(PDO::FETCH_ASSOC);
 
                  <div class = 'card-header' style = 'font-size: 16px;'>
 
-                     ".$rows['titulo']."
+                     ".$rows['nome']."
 
                  </div>
 
                  <div class = 'card-body'>
 
-                     <p class = 'card-text'> <strong> ISBN: </strong>".$rows['isbn']." </p>
+                     <p class = 'card-text'> <strong> CPF: </strong>".$rows['cpf']." </p>
 
-                     <p class = 'card-text'> <strong> Ano: </strong>".$rows['Ano']." </p>
+                     <p class = 'card-text'> <strong> Telefone: </strong>".$rows['telefone']." </p>
 
-                     <p class = 'card-text'> <strong> Páginas: </strong>".$rows['qtdPaginas']." </p>
+                     <p class = 'card-text'> <strong> E-mail: </strong>".$rows['email']." </p>
 
                      <a href='#' class='btn btn-success'> Ler </a>
-                     <a href ='../DB/deletebook.php?id=". $rows['id'] . "' class='btn btn-danger'> Deletar</a>
+                     <a href='../DB/deleteauthor.php?id=". $rows['id'] . "' class='btn btn-danger'> Deletar</a>
 
                  </div>
 
